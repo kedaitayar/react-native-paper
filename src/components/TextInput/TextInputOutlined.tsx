@@ -39,7 +39,8 @@ import {
 import { AdornmentType, AdornmentSide } from './Adornment/enums';
 
 const OUTLINE_MINIMIZED_LABEL_Y_OFFSET = -6;
-const LABEL_PADDING_TOP = 8;
+// const LABEL_PADDING_TOP = 8;
+const LABEL_PADDING_TOP = 2;
 const MIN_HEIGHT = 64;
 const MIN_DENSE_HEIGHT = 48;
 const INPUT_PADDING_HORIZONTAL = 14;
@@ -401,7 +402,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 0,
     right: 0,
-    top: 6,
+    // top: 6,
+    top: 0,
     bottom: 0,
   },
   labelContainer: {
